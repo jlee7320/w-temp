@@ -36,12 +36,12 @@ const CONFIG = {
   },
 
   wedding: {
-    date: "2026-05-09",
-    time: "13:00",
-    venue: "예식장 이름",
-    hall: "그랜드홀 5층",
-    address: "서울특별시 강남구 테헤란로 123",
-    tel: "02-1234-5678"
+    date: "2026-12-13",
+    time: "11:00",
+    venue: "상록아트홀",
+    hall: "아트홀 5층",
+    address: "서울특별시 강남구 언주로 508 (역삼동 701번지 상록회관)",
+    tel: "02-564-5757"
   },
 
   // ── 3. 인사말 ──
@@ -58,8 +58,8 @@ const CONFIG = {
 
   // ── 5. 오시는 길 ──
   mapLinks: {
-    kakao: "https://map.kakao.com/",
-    naver: "https://map.naver.com/"
+    kakao: "https://place.map.kakao.com/2009675378",
+    naver: "https://map.naver.com/p/entry/place/366784007"
   },
 
   // ── 6. 마음 전하실 곳 ──
@@ -79,6 +79,6 @@ const CONFIG = {
   // ── 링크 공유 시 나타나는 문구 ──
   meta: {
     title: "신랑 ♥ 신부 결혼합니다",
-    description: "2026년 5월 9일, 소중한 분들을 초대합니다."
+    description: "2026년 12월 13일, 소중한 분들을 초대합니다."
   }
 };
