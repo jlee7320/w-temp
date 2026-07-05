@@ -732,11 +732,11 @@
     initFooter();
     initScrollAnimations();
 
-    $('#storyTitle').textContent = CONFIG.story.title;
-    $('#storyContent').textContent = CONFIG.story.content;
+    //$('#storyTitle').textContent = CONFIG.story.title;
+    //$('#storyContent').textContent = CONFIG.story.content;
 
     const [storyImages, galleryImages] = await Promise.all([
-      loadImagesFromFolder('story'),
+    //  loadImagesFromFolder('story'),
       loadImagesFromFolder('gallery')
     ]);
 
