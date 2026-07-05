@@ -735,8 +735,12 @@
     //$('#storyTitle').textContent = CONFIG.story.title;
     //$('#storyContent').textContent = CONFIG.story.content;
 
-    const [storyImages, galleryImages] = await Promise.all([
+    //const [storyImages, galleryImages] = await Promise.all([
     //  loadImagesFromFolder('story'),
+    //  loadImagesFromFolder('gallery')
+    //]);
+
+    const [galleryImages] = await Promise.all([
       loadImagesFromFolder('gallery')
     ]);
 
