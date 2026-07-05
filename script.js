@@ -740,7 +740,7 @@
       loadImagesFromFolder('gallery')
     ]);
 
-    initStory(storyImages);
+    //initStory(storyImages);
     initGallery(galleryImages);
   }
 
